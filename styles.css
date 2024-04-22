@@ -1,0 +1,20 @@
+.postHeader{
+    display:flex;
+    padding: 20px;
+    margin: bottom 15px; ;
+    background-color:red;
+}
+.perfilImg > img{
+    max-width: 40px;
+    max-height: 40px;
+}
+.postIndx{
+    display:grid;
+    justify-content: center;
+}
+.more{
+    display:flex;
+    justify-content: right;
+    gap: 10px;
+    
+}
