@@ -1,20 +1,58 @@
-.postHeader{
-    display:flex;
-    padding: 20px;
-    margin: bottom 15px; ;
-    background-color:red;
-}
-.perfilImg > img{
-    max-width: 40px;
-    max-height: 40px;
-}
 .postIndx{
+    width: 32%;
     display:grid;
-    justify-content: center;
+    justify-content: center; 
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+.postHeader{
+    width: 100%;
+    display:flex;
+}
+.perfilImg > img{       /* acotar tamaño primera imagen */
+    max-width: 30px;
+    max-height: 30px;
+    margin: 5px;
 }
 .more{
-    display:flex;
-    justify-content: right;
-    gap: 10px;
-    
+    margin-top: 10px;
+    margin-left: 460px;  /* desplazamiento derecha del icono more */
+}
+h1{
+    margin:0%;
+    font-size: larger;
+}
+.perfilName{
+    display:table-row;
+}
+.perfilName > p{
+    margin: 0%;
+}
+.postBody{
+    width:100%;
+}
+.myIcons{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.myIcons > i {
+    margin-right: 5px;
+}
+.postImage > img{
+    max-width: 602px;
+    max-height: 500px;
+}
+.myText{
+    margin-left:15px;
+}
+.bookMark > i{
+    margin-left: 465px;  /* desplazamiento derecha del icono bookMark */
+}
+i{
+    font-size: 25px; /* tamaño iconos de la feed */
+}
+body{
+    display: flex;
+    justify-content: center;
 }
